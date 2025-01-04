@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Video Distribution Platform</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <div class="logo">
+      <h1>VidShare</h1>
+    </div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#latest-videos">Latest Videos</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+</nav>
+<nav>
+<form id="loginForm">
+  <h2>Login</h2>
+  <label for="username">Username:</label>
+  <input type="text" id="username" name="username" required />
+  <label for="password">Password:</label>
+  <input type="password" id="password" name="password" required />
+  <button type="submit">Login</button>
+</form>
+    </nav>
+  </header>
+
+  <section id="hero" class="hero-section">
+    <div class="hero-content">
+      <h2>Discover and Share the Best Short Videos</h2>
+      <p>Upload, watch, and share videos with the world</p>
+      <a href="#latest-videos" class="cta-button">Browse Latest Videos</a>
+    </div>
+  </section>
+
+  <section id="latest-videos" class="video-dashboard">
+    <h2 class="section-title">Latest Videos</h2>
+    <div id="videoList" class="video-list">
+      <!-- Video items will be dynamically added here -->
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-content">
+      <p>&copy; 2025 VidShare. All rights reserved.</p>
+      <ul class="social-links">
+        <li><a href="#">Facebook</a></li>
+        <li><a href="#">Twitter</a></li>
+        <li><a href="#">Instagram</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,18 @@
+{
+  "name": "video-app-backend",
+  "version": "1.0.0",
+  "description": "Backend for Video Distribution Web Application",
+  "main": "index.js",
+  "scripts": {
+    "start": "func start",
+    "deploy": "func azure functionapp publish MyVideoApp"
+  },
+  "dependencies": {
+    "@azure/storage-blob": "^12.13.0",
+    "@azure/cosmos": "^3.17.0",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {},
+  "author": "Your Name",
+  "license": "MIT"
+}
